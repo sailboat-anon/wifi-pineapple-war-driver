@@ -78,7 +78,6 @@ function run_scand() {
     sleep(90); 
 
     while (true) {
-        sleep(7); // let's not kill the device
         $scanID_endpoint = '/api/recon/scans/' . $scan->scanID;
         $scan_results = authorized_get($scanID_endpoint); 
         $handshake_req = array();
@@ -139,6 +138,7 @@ function run_scand() {
         else {
             echo '> No APs w/ clients found\n';
         }
+        sleep(7); // let's not kill the device
     }   
     return;
 }
