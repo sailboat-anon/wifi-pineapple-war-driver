@@ -19,7 +19,7 @@
 *                        `----------------'   
 *
 * workflow:
-* - set pineAP settings to AGGRESSIVE, broadccasting, allowing connections, auto-restart, etc
+* - set pineAP settings to AGGRESSIVE, broadcasting, allowing connections, auto-restart, etc
 * - run recon for 90 seconds, identify all APs with associated clients
 * - start handshake capture
 * - de-auth all clients related to AP, repeat 20 later; total 2 mins
