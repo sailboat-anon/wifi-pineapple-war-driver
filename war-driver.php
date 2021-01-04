@@ -30,6 +30,9 @@
 * use with ohc-api.sh - autosubmit the pcaps to onlinehashcracker.com, receive an email when complete | https://github.com/sailboat-anon/wifi-pineapple-mark-vii
 */
 
+echo "> Starting war-driver.php by sailboatanon\n";
+echo "> https://github.com/sailboat-anon/ \n";
+
 $config = array(
     'server_ip' => "172.16.42.1",
     'server_port' => 1471,
