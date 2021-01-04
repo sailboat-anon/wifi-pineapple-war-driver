@@ -17,6 +17,15 @@ de-authing and handshake capturing.  Turn this thing on, take your Pineapple for
 Pair this with [ohc-api.sh](https://github.com/sailboat-anon/wifi-pineapple-mark-vii) to auto-submit your captures to onlinehashcrack.com for free, 
 hands-off cracking.  Just run it on a cron and check your inbox :)
 
+Workflow:
+```
+- set pineAP settings to AGGRESSIVE, broadcasting, allowing connections, auto-restart, etc
+- run recon for 90 seconds, identify all APs with associated clients
+- start handshake capture
+- de-auth all clients related to AP, repeat 20 later; total 2 mins
+- handshakes captured, available for use
+- repeat: move to next AP with associated clients, de-auth, etc.
+```
 
 
 ```
