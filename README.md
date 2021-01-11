@@ -28,6 +28,7 @@ Run on your local machine, not the Wifi Pineapple (better performance)
 - git clone git://github.com/sailboat-anon/wifi-pineapple-war-driver.git
 - nano war-driver.php
 - Modify $config to match the server, port, username, password for your Wifi Pineapple. 
+- php war-driver.php
 ```
 
 Workflow:
