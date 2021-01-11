@@ -14,8 +14,21 @@ __      ____ _ _ __       __| |_ __(_)_   _____ _ __. ._ __ | |__  _ __
 This simple PHP script is an aggressive war-driver for the [Hak Wifi Pineapple Mark VII](https://shop.hak5.org/products/wifi-pineapple) to fully automate your recon, 
 de-authing and handshake capturing.  Turn this thing on, take your Pineapple for a walk around town, and collect those handshakes without any effort.
 
-Pair this with [ohc-api.sh](https://github.com/sailboat-anon/wifi-pineapple-mark-vii) to auto-submit your captures to onlinehashcrack.com for free, 
+Pair this with [loot-n-scoot.sh](https://github.com/sailboat-anon/wifi-pineapple-mark-vii) to auto-submit your captures to onlinehashcrack.com for free, 
 hands-off cracking.  Just run it on a cron and check your inbox :)
+
+Requirements:
+```
+php-cli
+```
+
+Use:
+```
+Run on your local machine, not the Wifi Pineapple (better performance)
+- git clone git://github.com/sailboat-anon/wifi-pineapple-war-driver.git
+- nano war-driver.php
+- Modify $config to match the server, port, username, password for your Wifi Pineapple. 
+```
 
 Workflow:
 ```
